@@ -10,8 +10,8 @@ import { Header2 } from "./examples/headers/Header2";
 
 const options = [
   { value: "default", label: "Default" },
-  { label: "Example 1", value: "example1" },
-  { label: "Example 2", value: "example2" },
+  // { label: "Example 1", value: "example1" },
+  { value: "example2", label: "Example" },
   { value: "none", label: "None" },
 ];
 
