@@ -10,7 +10,7 @@ const getRandomId = () => Math.random().toString(36).substring(2, 11);
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RemoteComponentProvider
-      url={`http://localhost:4173/remote.cjs?v=${getRandomId()}`}
+      url={`https://irserver2.eku.edu/libraries/remote/r19-wrapper.cjs?v=${getRandomId()}`}
     >
       <App />
     </RemoteComponentProvider>
